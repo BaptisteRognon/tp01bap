@@ -12,6 +12,14 @@
           
         </router-link>
       </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/">
+          lien vers
+          <code class="font-mono">/src/pages/pages.vue</code>
+          
+        </router-link>
+      </li>
+      
     </ul>
   </nav>
 

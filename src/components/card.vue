@@ -1,14 +1,15 @@
-<script>
-import bath from "./icones/bath.vue";
-import heart from "./icones/heart.vue";
+<script setup lang="ts">
+import bath from "../assets/icones/bath.vue";
+import heart from "../assets/icones/heart.vue";
 
 
-  defineprops: ({
+  defineProps ({
     nom: String,
     prix: Number,
     favori: Boolean,
     image: String, // les images sont simplement l'URL absolue (depuis la racine, débute par '/' )
-    nbrSDB: Number,});
+    nbrSDB: Number,
+    });
 </script>
 
 <template>
