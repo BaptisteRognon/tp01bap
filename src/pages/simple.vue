@@ -1,7 +1,10 @@
 <template >
      <div class="p-2">
         <h2>Page simple</h2>
-        <card image="/une.jpg"/>
+        <Card v-for="unObjet of desObjets" v-bind="unObjet" :key="unObjet.nom"/>
+
+        <!--- <card v-bind="desObjets[0]"/>
+              card v-bind="desObjets[1]"/>-->
      </div>
   </template>
 
@@ -13,15 +16,17 @@
     foo:String
   });
 
-  const unObjet0 = { nom:"une card de maison",
+  const desObjets= [{nom:"une card de maison",
   prix: 45,
   favori: false,
   image: "./une.jpg", 
-  nbr500: "number",}
-  const unObjet1 = {nom:"card",
+  nbrSDB: "number",},
+
+  {nom:"card",
   prix: "number",
-  favori: "Donlman",
+  favori: "Boolean",
   image: "./une.jpg",
-  nbr500: "number",}
+  nbrSDB: "number",}
+];
   
   </script>
