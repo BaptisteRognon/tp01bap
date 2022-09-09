@@ -3,12 +3,12 @@ import bath from "./icones/bath.vue";
 import heart from "./icones/heart.vue";
 
 
-  defineprops: {
+  defineprops: ({
     nom: String,
     prix: Number,
     favori: Boolean,
     image: String, // les images sont simplement l'URL absolue (depuis la racine, débute par '/' )
-    nbrSDB: Number,}};
+    nbrSDB: Number,});
 </script>
 
 <template>
