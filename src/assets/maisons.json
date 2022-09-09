@@ -1,0 +1,17 @@
+{
+    "Objet0":{
+
+    "nom":"une card de maison",
+  "prix": 45,
+  "favori": false,
+  "image": "./une.jpg", 
+  "nbrSDB": "number"},
+
+  "Objet1" : {
+  "nom":"card",
+  "prix": "number",
+  "favori": "Boolean",
+  "image": "./une.jpg",
+  "nbrSDB": "number"}
+
+}
