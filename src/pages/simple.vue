@@ -11,6 +11,17 @@
     
   const props = defineProps({
     foo:String
-  })
+  });
+
+  const unObjet0 = { nom:"une card de maison",
+  prix: 45,
+  favori: false,
+  image: "./une.jpg", 
+  nbr500: "number",}
+  const unObjet1 = {nom:"card",
+  prix: "number",
+  favori: "Donlman",
+  image: "./une.jpg",
+  nbr500: "number",}
   
   </script>
