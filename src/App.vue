@@ -9,6 +9,7 @@
         <router-link class="text-red-600 underline" to="/">
           lien vers
           <code class="font-mono">/src/pages/index.vue</code>
+          
         </router-link>
       </li>
     </ul>
